@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ccb65611faa8dc4280baefc59930bd0, type: 3}
+  m_Name: Game Assets Data
+  m_EditorClassIdentifier: 
+  Sprite_Table: {fileID: 21300000, guid: cc6f6bd5ce6412441b18f3f78f62f627, type: 3}
+  Sprite_NormalFramePortrait: {fileID: 21300000, guid: e7948adda305cfb44aa70fc17a55b420, type: 3}
+  Sprite_MyTurnFramePortrait: {fileID: 21300000, guid: 8f8c1bb051f06b949b7eb08200412d55, type: 3}
+  Sprite_MyTurnHighlightRotate: {fileID: 21300000, guid: 3b7024b081304fa458bff7be3a05a6ce, type: 3}
+  Sprite_WinnerRoundCrown: {fileID: 21300000, guid: b7795ac72b237aa4fb0fe39522cb9fbe, type: 3}
+  Sprite_BackgroundPlayerName: {fileID: 21300000, guid: 142dbf366472a884690ebc24c973ced9, type: 3}
+  Sprite_BackgroundPlayerChips: {fileID: 21300000, guid: 142dbf366472a884690ebc24c973ced9, type: 3}
+  Sprite_BackgroundPlayerHandType: {fileID: 21300000, guid: 142dbf366472a884690ebc24c973ced9, type: 3}
+  Sprite_BackgroundPlayerActionChoose: {fileID: 21300000, guid: 7505409dcf5b81b49bcd786f10bcbf62, type: 3}
+  Sprite_BackgroundBetChip: {fileID: 21300000, guid: 142dbf366472a884690ebc24c973ced9, type: 3}
+  Sprite_BetChip: {fileID: 21300000, guid: 579bbc7efb84b5d47a5990a21d1639e2, type: 3}
+  Sprite_DealerToken: {fileID: 21300000, guid: b7032e72ffb9cb74e8a98d9b04d677fc, type: 3}
+  Sprite_SmallBlindToken: {fileID: 21300000, guid: 467fe3f380eab6a409b4f9d74e4f9177, type: 3}
+  Sprite_BigBlindToken: {fileID: 21300000, guid: e10b6e11b128b7d4e87c9babbc5e3b7c, type: 3}
+  Sprite_BackgroundWinner: {fileID: 21300000, guid: 7505409dcf5b81b49bcd786f10bcbf62, type: 3}
+  Sprite_WinnerHighlightRotate: {fileID: 21300000, guid: 7a294597ea2d83f42abe3f4d2dd26033, type: 3}
+  Sprite_BackgroundPotChips: {fileID: 21300000, guid: 142dbf366472a884690ebc24c973ced9, type: 3}
+  Sprite_PotChips: {fileID: 21300000, guid: 4d750e38fd66780478c8381aa4a69188, type: 3}
+  Color_BackgroundChooseFold: {r: 0, g: 0, b: 0, a: 0.69803923}
+  Color_BackgroundChooseCallCheck: {r: 1, g: 0.9203187, b: 0, a: 0}
+  Color_BackgroundChooseRaise: {r: 0, g: 1, b: 0, a: 0}
+  Color_BackgroundChooseAllIn: {r: 0, g: 1, b: 0, a: 0}
+  Color_MyTurnHaloRotate: {r: 0, g: 1, b: 0, a: 1}
+  Color_WinnerHaloRotate: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  Color_HighlightPokerHandWinner: {r: 1, g: 0, b: 0, a: 1}
+  DefaultFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  Time_WaitToBeginGame: 2
+  Time_EnablePlayerOnTable: 0.1
+  Time_WaitToBeginTurn: 1
+  Time_DistributeCard: 0.1
+  Time_NextTurnDelay: 1
+  Time_WaitNextRound: 5
+  Time_CpuWaitChooseAction: 0.75
+  Time_CallNextPlayer: 0.75
+  Time_UpdatePotValueText: 0.3
+  Audio_CardSwipe: {fileID: 8300000, guid: 334a78b368955c04e99b2aab6f93015e, type: 3}
+  Audio_BetChips: {fileID: 8300000, guid: 61cfa0db7f731b941ad7bdb4f0608c19, type: 3}
+  Audio_DoFold: {fileID: 8300000, guid: ff3feffe9df10df48af79af19709de47, type: 3}
+  Audio_DoCheckCall: {fileID: 8300000, guid: a50ec364f9570e54f9f145bdd4005e26, type: 3}
+  Audio_PlayerWon: {fileID: 8300000, guid: fe263532427f3c244a1c2cc973235701, type: 3}
+  Audio_PlayerLost: {fileID: 8300000, guid: 4f51ee0007d3b17428589aa87d2501de, type: 3}
+  Audio_RoundCardsShow: {fileID: 8300000, guid: bdaa8846edcff374595edc5b212f741a, type: 3}
+  Audio_ButtonClick: {fileID: 8300000, guid: e26591de5e71e644d8eebf126a42266c, type: 3}
